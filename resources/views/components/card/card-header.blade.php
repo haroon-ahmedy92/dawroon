@@ -1,6 +1,5 @@
 <div class="px-6 py-4 flex items-center justify-between gap-4">
     <h5 class="grow text-lg font-medium text-default-900">{{ $title }}</h5>
-
     @if ($dropdown)
         <div class="shrink hs-dropdown relative [--placement:bottom-right] group">
             <button type="button" class="hs-dropdown-toggle h-8 w-8 inline-flex items-center justify-center bg-default-950/5 border border-default-200 rounded-full text-base group-[&.open]:rotate-90 transition-all duration-500">
